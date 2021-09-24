@@ -7,5 +7,56 @@
     <title>Form Input</title>
     <link rel="stylesheet" href="form-input.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="form">
+      <form action="" method="get">
+        <label for="fName">First Name:</label><br />
+        <input type="text" id="fName" name="First Name" /><br />
+        <label for="lName">Last Name:</label><br />
+        <input type="text" id="lName" name="Last Name" /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="Email" /><br />
+        <label for="psw">Password:</label><br />
+        <input type="password" id="psw" name="Password" /><br />
+        <label for="rpsw">Re-Type Password:</label><br />
+        <input type="password" id="rpsw" name="RT-Password" /><br />
+        <label for="ammount">Ammount:</label><br />
+        <input type="text" id="ammount" name="Ammount" /><br />
+        <label for="">Select Account Type:</label><br />
+        <label for="personal">
+          <input type="radio" name="Personal" id="personal" />Personal Account
+        </label>
+        <label for="office">
+          <input type="radio" name="Personal" id="office" />Office Account </label
+        ><br />
+        <label for="">Deposit Type:</label><br />
+        <label for="cash">
+          <input type="checkbox" name="Personal" id="cash" />Cash
+        </label>
+        <label for="sallery">
+          <input type="checkbox" name="Personal" id="sallery" />sallery </label
+        ><br />
+        <label for="accout-option">Account Option:</label><br />
+        <select name="" id="accout-option">
+          <option value="monthly">Monthly</option>
+          <option value="yearly">Yearly</option></select
+        ><br />
+        <label for="profile-photo">Profile Photo:</label><br />
+        <input type="file" id="profile-photo" name="Profile Photo" /><br />
+        <label for="nid-font">NID Copy:</label><br />
+        <input type="file" id="nid-back" name="NID Back-Side" /><br />
+        <span class="nid-warning">* Both side scan copy</span><br />
+        <label for="nomini-profile-photo">Nomini Profile Photo:</label><br />
+        <input
+          type="file"
+          id="nomini-profile-photo"
+          name="Nomini Profile Photo"
+        /><br />
+        <label for="nomini-nid-font">Nomini NID Copy:</label><br />
+        <input type="file" id="nomini-nid-copy" name="Nomini NID Copy" /><br />
+        <span class="nid-warning">* Both side scan copy</span><br />
+        <input type="submit" value="Creat Account" />
+      </form>
+    </div>
+  </body>
 </html>
