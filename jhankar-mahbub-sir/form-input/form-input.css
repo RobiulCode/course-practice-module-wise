@@ -1,0 +1,35 @@
+body {
+  margin: 100px;
+  padding: 0px;
+  background-color: silver;
+}
+.form {
+  margin: 0px auto;
+  border: 1px solid aqua;
+  width: 60%;
+  padding: 20px;
+  box-shadow: 5px 5px 10px #ffffff;
+}
+.text {
+  padding: 2px;
+  border: none;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(-45deg, green, red);
+  border-image-slice: 1;
+  margin-bottom: 10px;
+  transition: 2s;
+}
+.text:focus {
+  width: 500px;
+  padding: 2px;
+}
+input {
+  margin-bottom: 10px;
+}
+.submit-button {
+  background-image: linear-gradient(-45deg, #ff00f2, #f02345);
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: none;
+  font-weight: 700;
+}
